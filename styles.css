@@ -165,6 +165,7 @@ h1 {
 
 .project-tile:hover {
     transform: scale(1.01);
+    box-shadow: 4px 3px 12px #000000;
 }
 
 .img {
