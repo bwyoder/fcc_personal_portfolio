@@ -5,12 +5,13 @@
         <link rel="stylesheet" href="styles.css">
     </head>
     <body>
-        <header>
-            <a href="#">Brian Yoder</a>
-            <nav id="navbar">
-                <a href="#welcome-section">About Me</a>
-                <a href="#work">My Work</a>
-                <a href="#contact">Contact me</a>
+        <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+        <header id="navbar">
+            <a class="links" href="#">Brian Yoder</a>
+            <nav>
+                <a class="links"href="#welcome-section">About Me</a>
+                <a class="links"href="#projects">My Work</a>
+                <a class="links"href="#contact">Contact me</a>
             </nav>
         </header>
         <main>
@@ -20,6 +21,49 @@
                     <p>Nerd. Wanna be software develper. Etc.</p>
                 </div>
             </section>
+            <section id="projects">
+                <h2>Here is some of my work.</h2>
+                <div id="grid-container">
+
+
+                    <a class="project-tile img" href="https://www.facebook.com" target="_blank">
+                        <img src="facebook.png">
+                        <p>Facebook</p>
+                    </a>
+
+                    <a class="project-tile img" href="https://www.facebook.com" target="_blank">
+                        <img src="facebook.png">
+                        <p>Facebook</p>
+                    </a>                    <a class="project-tile img" href="https://www.facebook.com" target="_blank">
+                        <img src="facebook.png">
+                        <p>Facebook</p>
+                    </a>                    <a class="project-tile img" href="https://www.facebook.com" target="_blank">
+                        <img src="facebook.png">
+                        <p>Facebook</p>
+                    </a>                    <a class="project-tile img" href="https://www.facebook.com" target="_blank">
+                        <img src="facebook.png">
+                        <p>Facebook</p>
+                    </a>                    <a class="project-tile img" href="https://www.facebook.com" target="_blank">
+                        <img src="facebook.png">
+                        <p>Facebook</p>
+                    </a>
+                </div>
+                <a class="links" id="all-button" href="https://github.com/bwyoder" target="_blank">See All</a>
+            </section>
+            <section id="contact">
+                
+                <h2>Wanna give me money?</h2>
+                <p>Pick your poison.</p>
+                <div id="contact-links">
+                    <a id="profile-link" href="https://www.facebook.com/brian.yoder.50" target="_blank"><img class="logo" src="fblogo.png"></a>
+                    <a id="profile-link" href="https://github.com/bwyoder" target="_blank"><img class="logo" src="githublogo.png"></a>
+                    <a id="profile-link" href="tel:555-555-5555"><img class="logo" src="phonelogo.png"></a>
+                    <a id="profile-link" href="mailto:byoder65@gmail.com" target="_blank"><img class="logo" src="email.png"></a>
+                </div>
+            </section>
+            <footer>
+                <p>This all fake. I did not make facebook. Or github. or anything else.</p>
+            </footer>
         </main>
     </body>
 </html>
