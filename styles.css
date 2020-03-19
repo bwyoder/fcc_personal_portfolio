@@ -119,12 +119,26 @@ h1 {
 
 #grid-container {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-    grid-gap: 50px;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    grid-gap: 5px;
     justify-items: center;
     align-items: center;
     width: 100%;
     max-width: 1280px;
+    padding: 0;
+    margin: 0;
+}
+
+@media (max-width: 1300px) {
+    #grid-container {
+        max-width: 900px;
+    }
+}
+
+@media (max-width: 1000px) {
+    #grid-container {
+        max-width: 80%;
+    }
 }
 
 
@@ -135,8 +149,18 @@ h1 {
     text-align: center;
     background-color: #353535;
     border-radius: 5px;
-    margin: 0;
+    margin: 25px;
     box-shadow: 3px 3px 10px #000000;
+}
+
+.ghost-text {
+    padding: 5px;
+    color: #353535;
+    transition: color 0.3s ease-out;
+}
+
+.project-tile:hover .ghost-text {
+    color: #ff4500;
 }
 
 .project-tile:hover {
@@ -163,7 +187,7 @@ h1 {
     transition: color 0.3s ease-out;
 }
 #all-button:hover > #shift {
-    color: #ff6464;
+    color: #ff4500;
 }
 
 #contact {
