@@ -182,6 +182,10 @@ h1 {
     margin: 75px;
 }
 
+#all-button:hover {
+    transform: scale(1.02);
+}
+
 #all-button > #shift {
     position: relative;
     left: 5px;
